@@ -69,12 +69,16 @@ public class TastyToast {
                         warningToastView.setScaleY(scale);
                     }
                 });
-                Thread t = new Thread(() -> {
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException e) {
+                Thread t = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Thread.sleep(500);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        spring.setEndValue(0.4f);
                     }
-                    spring.setEndValue(0.4f);
                 });
 
                 t.start();
