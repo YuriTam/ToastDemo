@@ -20,6 +20,8 @@ import com.sdsmdg.tastytoast.widget.WarningToastView;
 
 /**
  * Created by rahul on 28/7/16.
+ *
+ * 来源 ：https://github.com/yadav-rahul/TastyToast
  */
 public class TastyToast {
 
