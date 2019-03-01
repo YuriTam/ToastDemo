@@ -9,6 +9,8 @@ import com.sdsmdg.tastytoast.ToastUtils;
 
 /**
  * TOAST示例
+ *
+ * 其中，TASTY-TOAST部分来源于：https://github.com/yadav-rahul/TastyToast
  */
 public class MainActivity extends AppCompatActivity {
 
